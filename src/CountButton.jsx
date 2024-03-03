@@ -12,8 +12,8 @@ export default function CountButton({ locked, setCount, type }) {
         }
       } else if (type === "plus") {
         const newCount = prev + 1
-        if (newCount > 5) {
-          return 5
+        if (newCount > 50) {
+          return 50
         } else {
           return newCount
         }

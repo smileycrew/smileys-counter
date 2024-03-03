@@ -13,7 +13,11 @@ button {
 body {
   font-family: Inter, sans-serif;
   height: 100vh;
-  background-image: radial-gradient(ellipse, #385300, #212900);
+  /* background-image: radial-gradient(ellipse, #385300, #212900); */
+  background-color: #737373;
+  background-image: url("../public/backgroundImg.png");
+  background-position: center;
+  background-size: cover;
 }
 
 #root {

@@ -7,14 +7,14 @@ import CountButton from "./CountButton"
 
 export default function Card() {
   const [count, setCount] = useState(0)
-  const locked = count === 5 ? true : false
+  const locked = count === 50 ? true : false
 
   useEffect(() => {
     const handleKeydown = (event) => {
       if (event.code === "Space") {
         const newCount = count + 1
-        if (newCount > 5) {
-          setCount(5)
+        if (newCount > 50) {
+          setCount(50)
         } else {
           setCount(newCount)
         }
